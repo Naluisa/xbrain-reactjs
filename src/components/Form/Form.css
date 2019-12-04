@@ -1,0 +1,28 @@
+#Form{
+    margin-top: 40px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+}
+
+@media (max-width: 1140px){
+    #Form{
+        width: 1000px;
+    }
+}
+
+@media (max-width: 720px){
+    #Form{
+        width: 580px;
+    }
+}
+
+@media (max-width: 320px){
+    #Form{
+        width: 300px;
+        justify-content: center;
+        margin-left: 0;
+    }
+}
